@@ -15,3 +15,28 @@ html{
 *, *::before, *::after{
   box-sizing: inherit;
 }
+body{
+font-family: 'Lato', sans-serif;
+margin: 0 auto;
+}
+.about{
+  background-color: #ef8c93;
+  padding: 1em;
+  color: #7c2f3c;
+  text-align: center;
+}
+.portfolio{
+  padding: 1em;
+  color: #3a3a51;
+  text-align: center;
+}
+.contact{
+  background-color: #9fd2d5;
+  padding: 1em;
+  color: #0089a1;
+  text-align: center;
+}
+footer{
+  background-color: #0089a1;
+  padding: 1em;
+}
