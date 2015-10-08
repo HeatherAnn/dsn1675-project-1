@@ -19,24 +19,107 @@ body{
 font-family: 'Lato', sans-serif;
 margin: 0 auto;
 }
+
+.banner{
+  position: relative;
+  text-align: left;
+  font-size: 0.5rem;
+  max-height: 75vh;
+  overflow: hidden;
+  clear: both;
+}
+.banner img{
+  width: 100%;
+}
+.bannercontent{
+  position: absolute;
+  bottom: 2em;
+  color: #fff;
+  width: 100%;
+  bottom: -6%;
+  margin: 3em;
+  font-size: 1.2em;
+  padding-left: 10px;
+}
+.bannercontent img{
+  width: 40%;
+  margin: 0em 1em -3em 6em;
+  text-align: center;
+  border: none;
+}
 .about{
+  background-image: url("../images/abouticon.svg"), url("../images/abouticon.svg");
+  background-size: 70px auto;
+  background-repeat: no-repeat;
   background-color: #ef8c93;
   padding: 1em;
+  margin: -2px;
   color: #7c2f3c;
   text-align: center;
 }
 .portfolio{
+  background-image: url("../images/portfolioicon.svg"), url("../images/portfolioicon.svg");
+  background-size: 70px auto;
+  background-repeat: no-repeat;
+  background-color: white;
   padding: 1em;
   color: #3a3a51;
   text-align: center;
+  padding-bottom: 1em;
+}
+.gci{
+  width: 85%;
+}
+.gcidiv{
+  width: 50%;
+  float: left;
+  padding-bottom: 1em;
+}
+.tealumbrella{
+  width: 85%;
+}
+.tealumbrelladiv{
+  width: 50%;
+  float: left;
+    padding-bottom: 1em;
 }
 .contact{
+  background-image: url("../images/contacticon.svg"), url("../images/contacticon.svg");
+  background-size: 70px auto;
+  background-repeat: no-repeat;
   background-color: #9fd2d5;
   padding: 1em;
   color: #0089a1;
   text-align: center;
+  clear: both;
+}
+a{
+  color: #ef8c93;
+  padding: 5px;
+  margin-top: 1em;
+  text-decoration: none;
+  transition: all 250ms ease-out;
+}
+a:hover{
+  color:#0089a1;
+  transform: scale(1.2);
+}
+.socialmedia{
+  width: 15%;
+  margin: -0.5em;
+}
+.contact img{
+  transition: all 250ms ease-out;
+}
+.contact img:hover{
+  transform: scale(1.2);
 }
 footer{
   background-color: #0089a1;
-  padding: 1em;
+  text-align: center;
+}
+footer img{
+  width: 120px;
+  text-align: center;
+
 }
