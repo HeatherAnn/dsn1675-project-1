@@ -121,5 +121,44 @@ footer{
 footer img{
   width: 120px;
   text-align: center;
+}
+
+@media only screen and (min-width: 35em){
+
+  .about{
+    float: left;
+    width: 50%;
+  }
+  .about h2{
+    margin-bottom: 0.5em;
+  }
+  .about p{
+    padding: 1.5em;
+  }
+  .portfolio{
+    float: left;
+    width: 50%;
+    margin
+  }
+.contact{
+  clear: both;
+  margin-top: 1em;
+}
+}
+@media only screen and (min-width: 50em){
+  .about{
+    float: left;
+    width: 33%
+  }
+  .portfolio{
+    float: left;
+    width: 33%
+  }
+  .contact{
+    width: 33%
+  }
+  .footer{
+    clear: both;
+  }
 
 }
