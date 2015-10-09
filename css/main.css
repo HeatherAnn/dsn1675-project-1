@@ -30,6 +30,7 @@ margin: 0 auto;
 }
 .banner img{
   width: 100%;
+  display:block;
 }
 .bannercontent{
   position: absolute;
@@ -38,7 +39,7 @@ margin: 0 auto;
   width: 100%;
   bottom: -6%;
   margin: 3em;
-  font-size: 1.2em;
+  font-size: 1.5em;
   padding-left: 10px;
 }
 .bannercontent img{
@@ -47,22 +48,27 @@ margin: 0 auto;
   text-align: center;
   border: none;
 }
+h2{
+  padding-top: 1.2em;
+}
 .about{
-  background-image: url("../images/abouticon.svg"), url("../images/abouticon.svg");
+  background-image: url("../images/abouticon.svg");
   background-size: 70px auto;
   background-repeat: no-repeat;
+  background-position: center 1em;
   background-color: #ef8c93;
-  padding: 1em;
-  margin: -2px;
+  padding: 2em 1em 1em 1em;
+  margin: 0px;
   color: #7c2f3c;
   text-align: center;
 }
 .portfolio{
-  background-image: url("../images/portfolioicon.svg"), url("../images/portfolioicon.svg");
+  background-image: url("../images/portfolioicon.svg");
   background-size: 70px auto;
   background-repeat: no-repeat;
+  background-position: center 1em;
   background-color: white;
-  padding: 1em;
+  padding: 2em 1em 1em 1em;
   color: #3a3a51;
   text-align: center;
   padding-bottom: 1em;
@@ -84,11 +90,13 @@ margin: 0 auto;
     padding-bottom: 1em;
 }
 .contact{
-  background-image: url("../images/contacticon.svg"), url("../images/contacticon.svg");
+  background-image: url("../images/contacticon.svg");
   background-size: 70px auto;
   background-repeat: no-repeat;
+  background-position: center 1em;
   background-color: #9fd2d5;
-  padding: 1em;
+  padding: 2em 1em 1em 1em;
+
   color: #0089a1;
   text-align: center;
   clear: both;
@@ -110,6 +118,7 @@ a:hover{
 }
 .contact img{
   transition: all 250ms ease-out;
+  border: 0;
 }
 .contact img:hover{
   transform: scale(1.2);
@@ -128,36 +137,46 @@ footer img{
   .about{
     float: left;
     width: 50%;
+    height: 420px;
+  }
+  .bannercontent h1{
+    font-size: 3em;
   }
   .about h2{
     margin-bottom: 0.5em;
   }
   .about p{
-    padding: 1.5em;
+    padding: 1em;
+    font-size: 1.1em;
   }
   .portfolio{
     float: left;
     width: 50%;
-    margin
+    height: 420px;
   }
 .contact{
   clear: both;
-  margin-top: 1em;
 }
 }
 @media only screen and (min-width: 50em){
   .about{
     float: left;
-    width: 33%
+    width: 33.33%;
+    height: 450px;
   }
   .portfolio{
     float: left;
-    width: 33%
+    width: 33.33%;
+    height: 450px;
   }
   .contact{
-    width: 33%
+    float: left;
+    width: 33.33%;
+    height: 450px;
+    clear: none;
+    margin: 0;
   }
-  .footer{
+  footer{
     clear: both;
   }
 
