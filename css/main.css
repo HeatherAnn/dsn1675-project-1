@@ -43,14 +43,14 @@ margin: 0 auto;
 }
 .bannercontent img{
   width: 40%;
-  margin: 0em 1em -4em 2em;
+  margin: -1em 1em -5em 2em;
   text-align: center;
   border: none;
 }
 h1{
   color: #0089a1;
   margin: 0 auto;
-  padding: 1em;
+  padding: 2em;
   font-size: 1em;
 }
 h2{
@@ -138,6 +138,19 @@ footer img{
   width: 120px;
   text-align: center;
 }
+@media only screen and (min-width: 20em){
+  .bannercontent h1{
+    font-size: 1.2em;
+  }
+}
+@media only screen and (min-width: 30em){
+  .bannercontent h1{
+    font-size: 1.5em;
+  }
+  .bannercontent img{
+    margin: -1em 1em -7em 4em;
+  }
+}
 
 @media only screen and (min-width: 35em){
 
@@ -151,7 +164,7 @@ footer img{
     font-size: 2.5em;
   }
   .bannercontent img{
-    margin: 0em 1em -9em 9em;
+    margin: 0em 1em -12em 9em;
   }
   .about h2{
     margin-bottom: 0.5em;
@@ -174,15 +187,15 @@ footer img{
 @media only screen and (min-width: 50em){
 
   .bannercontent h1{
-    font-size: 3.5em;
+    font-size: 4em;
   }
   .bannercontent img{
-    margin: -1em 1em -11em 9em;
+    margin: -1em 1em -20em 8em;
   }
   .about{
     float: left;
     width: 33.33%;
-    height: 480px;
+    height: 500px;
     background-size: 100px auto;
   }
   .about h2{
@@ -200,13 +213,13 @@ footer img{
   .portfolio{
     float: left;
     width: 33.33%;
-    height: 480px;
+    height: 500px;
     background-size: 100px auto;
   }
   .contact{
     float: left;
     width: 33.33%;
-    height: 480px;
+    height: 500px;
     clear: none;
     margin: 0;
     background-size: 100px auto;
