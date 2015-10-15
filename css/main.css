@@ -35,21 +35,27 @@ margin: 0 auto;
 .bannercontent{
   position: absolute;
   bottom: 2em;
-  color: #fff;
+  color: #0089a1;
   width: 100%;
   bottom: -6%;
-  margin: 3em;
   font-size: 1.5em;
   padding-left: 10px;
 }
 .bannercontent img{
   width: 40%;
-  margin: 0em 1em -3em 6em;
+  margin: 0em 1em -4em 2em;
   text-align: center;
   border: none;
 }
+h1{
+  color: #0089a1;
+  margin: 0 auto;
+  padding: 1em;
+  font-size: 1em;
+}
 h2{
   padding-top: 1.2em;
+  font-size: 1.5em;
 }
 
 .about{
@@ -57,7 +63,7 @@ h2{
   background-size: 70px auto;
   background-repeat: no-repeat;
   background-position: center 1em;
-  background-color: #f3a9ab;
+  background-color: #f18895;
   padding: 2em 1em 1em 1em;
   margin: 0px;
   color: #27273a;
@@ -68,7 +74,8 @@ h2{
   background-size: 70px auto;
   background-repeat: no-repeat;
   background-position: center 1em;
-  background-color: #ef7385;
+  background-color: white;
+
   padding: 2em 1em 1em 1em;
   color: #27273a;
   text-align: center;
@@ -141,7 +148,10 @@ footer img{
     background-size: 80px auto;
   }
   .bannercontent h1{
-    font-size: 3em;
+    font-size: 2.5em;
+  }
+  .bannercontent img{
+    margin: 0em 1em -9em 9em;
   }
   .about h2{
     margin-bottom: 0.5em;
@@ -162,6 +172,13 @@ footer img{
 }
 }
 @media only screen and (min-width: 50em){
+
+  .bannercontent h1{
+    font-size: 3.5em;
+  }
+  .bannercontent img{
+    margin: -1em 1em -11em 9em;
+  }
   .about{
     float: left;
     width: 33.33%;
