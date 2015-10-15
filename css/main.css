@@ -51,15 +51,16 @@ margin: 0 auto;
 h2{
   padding-top: 1.2em;
 }
+
 .about{
   background-image: url("../images/abouticon.svg");
   background-size: 70px auto;
   background-repeat: no-repeat;
   background-position: center 1em;
-  background-color: #ef8c93;
+  background-color: #f3a9ab;
   padding: 2em 1em 1em 1em;
   margin: 0px;
-  color: #7c2f3c;
+  color: #27273a;
   text-align: center;
 }
 .portfolio{
@@ -67,9 +68,9 @@ h2{
   background-size: 70px auto;
   background-repeat: no-repeat;
   background-position: center 1em;
-  background-color: white;
+  background-color: #ef7385;
   padding: 2em 1em 1em 1em;
-  color: #3a3a51;
+  color: #27273a;
   text-align: center;
   padding-bottom: 1em;
 }
@@ -96,8 +97,7 @@ h2{
   background-position: center 1em;
   background-color: #9fd2d5;
   padding: 2em 1em 1em 1em;
-
-  color: #0089a1;
+  color: #27273a;
   text-align: center;
   clear: both;
 }
@@ -138,6 +138,7 @@ footer img{
     float: left;
     width: 50%;
     height: 420px;
+    background-size: 80px auto;
   }
   .bannercontent h1{
     font-size: 3em;
@@ -153,28 +154,52 @@ footer img{
     float: left;
     width: 50%;
     height: 420px;
+    background-size: 80px auto;
   }
 .contact{
   clear: both;
+  background-size: 80px auto;
 }
 }
 @media only screen and (min-width: 50em){
   .about{
     float: left;
     width: 33.33%;
-    height: 450px;
+    height: 480px;
+    background-size: 100px auto;
+  }
+  .about h2{
+    margin-top: 1.5em;
+    font-size: 2em;
+  }
+  .portfolio h2{
+    margin-top: 1.5em;
+    font-size: 2em;
+  }
+  .contact h2{
+    margin-top: 1.5em;
+    font-size: 2em;
   }
   .portfolio{
     float: left;
     width: 33.33%;
-    height: 450px;
+    height: 480px;
+    background-size: 100px auto;
   }
   .contact{
     float: left;
     width: 33.33%;
-    height: 450px;
+    height: 480px;
     clear: none;
     margin: 0;
+    background-size: 100px auto;
+  }
+  .contact p{
+    font-size: 1.5em;
+  }
+  .socialmedia{
+    width: 23%;
+    margin-top: 2em;
   }
   footer{
     clear: both;
