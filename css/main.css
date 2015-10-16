@@ -238,3 +238,30 @@ footer img{
   }
 
 }
+@media print{
+  header{
+    display: none;
+  }
+  main a::after {
+    content: " (" attr(href) ") ";
+    display: inline-block;
+  }
+  footer{
+    display: none;
+  }
+  .socialmedia{
+    display: none;
+  }
+  .pepsi{
+    width: 30%
+  }
+  .tealumbrella{
+    width: 30%;
+  }
+  a href{
+    max-width: 50px;
+  }
+  h2 p{
+    text-align: left;
+  }
+}
