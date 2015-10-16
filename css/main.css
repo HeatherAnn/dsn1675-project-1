@@ -97,6 +97,10 @@ h2{
   float: left;
     padding-bottom: 1em;
 }
+.caption{
+  margin: 0;
+}
+
 .contact{
   background-image: url("../images/contacticon.svg");
   background-size: 70px auto;
