@@ -127,9 +127,7 @@ a:hover{
   transition: all 250ms ease-out;
   border: 0;
 }
-.contact img:hover{
-  transform: scale(1.2);
-}
+
 footer{
   background-color: #0089a1;
   text-align: center;
